@@ -1,0 +1,113 @@
+﻿@model VisionsConstructionLLC.Database.Entities.Gallery.Item
+
+@{
+	ViewBag.Title = "ModifyItem";
+	Layout = "~/Views/_Layout.cshtml";
+}
+
+<section class="row padding">
+	<div class="col-md-12">
+		<h1>Modify Item</h1>
+		@using (Html.BeginForm("Image", "GalleryAdministration", FormMethod.Post, new { enctype = "multipart/form-data", id = "edit-form" })) {
+			@Html.AntiForgeryToken()
+			@Html.HiddenFor(model => model.Id)
+			@Html.HiddenFor(model => model.GalleryCategoryId)
+			<div class="form-horizontal">
+				<h4>Item</h4>
+				@Html.ValidationSummary()
+				@if (TempData["Message"] != null) {
+					<p class="bg-success">@TempData["Message"]</p>
+				}
+				<div class="form-group">
+					@Html.LabelFor(model => model.Title, new { @class = "control-label col-md-2" })
+					<div class="col-md-10">
+						@Html.TextBoxFor(model => model.Title, new { autocomplete = "off" })
+					</div>
+				</div>
+				<div class="form-group">
+					@Html.LabelFor(model => model.ShowcaseDescription, new { @class = "control-label col-md-2" })
+					<div class="col-md-10">
+						@Html.TextAreaFor(model => model.ShowcaseDescription, new { @class="auto-height", autocomplete = "off", rows = "2" })
+					</div>
+				</div>
+				<div class="form-group">
+					@Html.LabelFor(model => model.DescriptionUTF8, new { @class = "control-label col-md-2" })
+					<div class="col-md-10">
+						@Html.TextAreaFor(model => model.DescriptionUTF8, new { autocomplete = "off", id = "long-description" })
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="fileUpload" class="control-label col-md-2">Images</label>
+					<div class="col-md-10">
+						<input id="fileupload" type="file" name="files[]" multiple>
+						<div id="progress" class="progress">
+							<div class="progress-bar progress-bar-success"></div>
+						</div>
+						<div id="files" class="files"></div>
+					</div>
+				</div>
+			</div>
+		}
+		@if (Model.ItemImages != null && Model.ItemImages.Count != 0) {
+			<table class="table table-striped table-bordered table-hover">
+				<thead>
+					<tr>
+						<th>Index</th>
+						<th>Image</th>
+						<th>Size</th>
+						<th>Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					@foreach (var image in Model.ItemImages) {
+						<tr class="@(image.ActiveStatus == VisionsConstructionLLC.Database.Models.Enums.ActiveStatus.INACTIVE ? "warning" : "")">
+							<td>@image.Id</td>
+							<td><img class="img-responsive" src="~/Gallery/Image/@image.Id/150" /></td>
+							<td>@((image.Image.Length / 1000000F).ToString("n2")) MB</td>
+							<td class="center">
+								@if (image.ActiveStatus == VisionsConstructionLLC.Database.Models.Enums.ActiveStatus.ACTIVE) {
+									using (Html.BeginForm("DeleteImage", "GalleryAdministration", FormMethod.Post)) {
+										@Html.HiddenFor(model => model.Id)
+										@Html.HiddenFor(model => model.GalleryCategoryId)
+										<button name="imageId" type="submit" class="btn btn-default" value="@image.Id" title="Delete">
+											<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+										</button>
+									}
+								}
+								else {
+									using (Html.BeginForm("AddImage", "GalleryAdministration", FormMethod.Post)) {
+										@Html.HiddenFor(model => model.Id)
+										@Html.HiddenFor(model => model.GalleryCategoryId)
+										<button name="imageId" type="submit" class="btn btn-default" value="@image.Id" title="Add">
+											<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+										</button>
+									}
+								}
+							</td>
+						</tr>
+					}
+				</tbody>
+			</table>
+		}
+		<div class="form-group">
+			<div class="col-md-offset-10 col-md-2 text-right">
+				<input id="edit-submit-button" type="submit" value="Save" class="light" />
+			</div>
+		</div>
+		<div class="back">
+			@Html.ActionLink("Back", "ModifySelection", new { id = Model.GalleryCategoryId })
+		</div>
+	</div>
+</section>
+
+<script src="~/Scripts/tools/tinymce/js/tinymce/tinymce.min.js"></script>
+
+<script>
+	$(document).ready(function () {
+		$("#edit-submit-button").click(function () {
+			$("#edit-form").submit();
+		});
+	});
+
+	tinymce.init({ selector: '#long-description' });
+</script>

@@ -1,0 +1,470 @@
+﻿.normalize * {
+	font-family: "QuattrocentoSans-Regular";
+	background-image: none;
+}
+
+.normalize article,
+.normalize aside,
+.normalize details,
+.normalize figcaption,
+.normalize figure,
+.normalize footer,
+.normalize header,
+.normalize hgroup,
+.normalize main,
+.normalize menu,
+.normalize nav,
+.normalize section,
+.normalize summary {
+	display: block;
+}
+
+.normalize audio,
+.normalize canvas,
+.normalize progress,
+.normalize video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.normalize audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+.normalize [hidden],
+.normalize template {
+	display: none;
+}
+
+.normalize a {
+	background-color: transparent;
+}
+
+.normalize a:active,
+.normalize a:hover {
+	outline: 0;
+}
+
+.normalize abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+.normalize b,
+.normalize strong {
+	font-weight: bold;
+}
+
+.normalize dfn {
+	font-style: italic;
+}
+
+.normalize h1 {
+	display: block;
+	font-size: 2em;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-weight: bold;
+}
+
+.normalize mark {
+	background: #ff0;
+	color: #000;
+}
+
+.normalize small {
+	font-size: 80%;
+}
+
+.normalize sub,
+.normalize sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+.normalize sup {
+	top: -0.5em;
+}
+
+.normalize sub {
+	bottom: -0.25em;
+}
+
+.normalize img {
+	border: 0;
+}
+
+.normalize svg:not(:root) {
+	overflow: hidden;
+}
+
+.normalize figure {
+	margin: 1em 40px;
+}
+
+.normalize hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+.normalize pre {
+	overflow: auto;
+}
+
+.normalize code,
+.normalize kbd,
+.normalize pre,
+.normalize samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+.normalize button,
+.normalize input,
+.normalize optgroup,
+.normalize select,
+.normalize textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+.normalize button {
+	overflow: visible;
+}
+
+.normalize button,
+.normalize select {
+	text-transform: none;
+}
+
+.normalize button,
+.normalize html input[type="button"],
+.normalize input[type="reset"],
+.normalize input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+.normalize button[disabled],
+.normalize html input[disabled] {
+	cursor: default;
+}
+
+.normalize button::-moz-focus-inner,
+.normalize input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+.normalize input {
+	line-height: normal;
+}
+
+.normalize input[type="checkbox"],
+.normalize input[type="radio"] {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.normalize input[type="number"]::-webkit-inner-spin-button,
+.normalize input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+.normalize input[type="search"] {
+	-webkit-appearance: textfield;
+	box-sizing: content-box;
+}
+
+.normalize input[type="search"]::-webkit-search-cancel-button,
+.normalize input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+.normalize fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+.normalize legend {
+	border: 0;
+	padding: 0;
+}
+
+.normalize textarea {
+	overflow: auto;
+}
+
+.normalize optgroup {
+	font-weight: bold;
+}
+
+.normalize table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.normalize td,
+.normalize th {
+	padding: 0;
+}
+
+.normalize blockquote,
+.normalize body,
+.normalize dd,
+.normalize div,
+.normalize dl,
+.normalize dt,
+.normalize fieldset,
+.normalize form,
+.normalize frame,
+.normalize frameset,
+.normalize h1,
+.normalize h2,
+.normalize h3,
+.normalize h4,
+.normalize h5,
+.normalize h6,
+.normalize noframes,
+.normalize ol,
+.normalize p,
+.normalize ul,
+.normalize center,
+.normalize dir,
+.normalize hr,
+.normalize menu,
+.normalize pre {
+	display: block;
+	unicode-bidi: embed;
+}
+
+.normalize li {
+	display: list-item;
+}
+
+.normalize head {
+	display: none;
+}
+
+.normalize table {
+	display: table;
+}
+
+.normalize tr {
+	display: table-row;
+}
+
+.normalize thead {
+	display: table-header-group;
+}
+
+.normalize tbody {
+	display: table-row-group;
+}
+
+.normalize tfoot {
+	display: table-footer-group;
+}
+
+.normalize col {
+	display: table-column;
+}
+
+.normalize colgroup {
+	display: table-column-group;
+}
+
+.normalize td,
+.normalize th {
+	display: table-cell;
+}
+
+.normalize caption {
+	display: table-caption;
+}
+
+.normalize th {
+	font-weight: bolder;
+	text-align: center;
+}
+
+.normalize caption {
+	text-align: center;
+}
+
+.normalize body {
+	margin: 8px;
+}
+
+.normalize h1 {
+	font-size: 2em;
+	margin: .67em 0;
+}
+
+.normalize h2 {
+	font-size: 1.5em;
+	margin: .75em 0;
+}
+
+.normalize h3 {
+	font-size: 1.17em;
+	margin: .83em 0;
+}
+
+.normalize h4,
+.normalize p,
+.normalize blockquote,
+.normalize ul,
+.normalize fieldset,
+.normalize form,
+.normalize ol,
+.normalize dl,
+.normalize dir,
+.normalize menu {
+	margin: 1.12em 0;
+}
+
+.normalize h5 {
+	font-size: .83em;
+	margin: 1.5em 0;
+}
+
+.normalize h6 {
+	font-size: .75em;
+	margin: 1.67em 0;
+}
+
+.normalize h1,
+.normalize h2,
+.normalize h3,
+.normalize h4,
+.normalize h5,
+.normalize h6,
+.normalize b,
+.normalize strong {
+	font-weight: bolder;
+}
+
+.normalize blockquote {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.normalize i,
+.normalize cite,
+.normalize em,
+.normalize var,
+.normalize address {
+	font-style: italic;
+}
+
+.normalize pre,
+.normalize tt,
+.normalize code,
+.normalize kbd,
+.normalize samp {
+	font-family: monospace;
+}
+
+.normalize pre {
+	white-space: pre;
+}
+
+.normalize button,
+.normalize textarea,
+.normalize input,
+.normalize select {
+	display: inline-block;
+}
+
+.normalize big {
+	font-size: 1.17em;
+}
+
+.normalize small,
+.normalize sub,
+.normalize sup {
+	font-size: .83em;
+}
+
+.normalize sub {
+	vertical-align: sub;
+}
+
+.normalize sup {
+	vertical-align: super;
+}
+
+.normalize table {
+	border-spacing: 2px;
+}
+
+.normalize thead,
+.normalize tbody,
+.normalize tfoot {
+	vertical-align: middle;
+}
+
+.normalize td,
+.normalize th,
+.normalize tr {
+	vertical-align: inherit;
+}
+
+.normalize s,
+.normalize strike,
+.normalize del {
+	text-decoration: line-through;
+}
+
+.normalize hr {
+	border: 1px inset;
+}
+
+.normalize ol,
+.normalize ul,
+.normalize dir,
+.normalize menu,
+.normalize dd {
+	margin-left: 40px;
+}
+
+.normalize ol {
+	list-style-type: decimal;
+}
+
+.normalize ol ul,
+.normalize ul ol,
+.normalize ul ul,
+.normalize ol ol {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.normalize u, ins {
+	text-decoration: underline;
+}
+
+.normalize br:before {
+	content: "\A";
+	white-space: pre-line;
+}
+
+.normalize center {
+	text-align: center;
+}
+
+.normalize :link,
+.normalize :visited {
+	text-decoration: underline;
+}
+
+.normalize :focus {
+	outline: thin dotted invert;
+}

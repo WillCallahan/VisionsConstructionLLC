@@ -1,0 +1,46 @@
+﻿@model VisionsConstructionLLC.Database.Entities.Email
+
+@{
+	ViewBag.Title = "Contact";
+	Layout = "~/Views/_Layout.cshtml";
+}
+
+<section class="row padding">
+	@using (Html.BeginForm("SendMessage", "Contact", FormMethod.Post, new { @class = "col-md-6" })) {
+		@Html.AntiForgeryToken()
+		<h1>Contact</h1>
+		<p>
+			Please contact us with any qustions you may have. You can send us an email, call us, or send us a message by willing out the following form. We will respond to your request as soon as possible.
+		</p>
+		<hr />
+		if (ViewBag.Success != null && ViewBag.Success) {
+			<p class="bg-success">Successfully Sent Email!</p>
+		}
+		else if (ViewBag.Success != null && !ViewBag.Success) {
+			<p class="bg-danger">An Error Occurred! @ViewBag.Message</p>
+		}
+		@Html.ValidationSummary()
+		<label class="contact" id="name_label">Name</label>
+		@Html.TextBoxFor(model => model.Name, new { autocomplete = "off" })
+		<label class="contact" id="email_label">Email Address</label>
+		@Html.TextBoxFor(model => model.Address, new { autocomplete = "off" })
+		<label class="contact" id="number_label">Contact Number</label>
+		@Html.TextBoxFor(model => model.Phone, new { autocomplete = "off" })
+		<label class="contact" id="message_label">Message</label>
+		@Html.TextAreaFor(model => model.Message, new { })
+		<input type="submit" value="Send Message" class="light">
+	}
+	<div class="col-md-6">
+		<figure>
+			<img src="~/Content/images/secondary-images/kitchen-addition.png" class="img-responsive" alt="Kitchen Bar Remodel">
+			<figcaption class="contact center">
+				<h5>General Contractor</h5>
+				<h4>James Callahan</h4>
+				<h5>Phone Number</h5>
+				<h4>203-947-2678</h4>
+				<h5>Email</h5>
+				<h4>visionsconstructionct@gmail.com</h4>
+			</figcaption>
+		</figure>
+	</div>
+</section>

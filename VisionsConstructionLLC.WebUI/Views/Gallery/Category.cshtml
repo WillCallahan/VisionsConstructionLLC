@@ -1,0 +1,36 @@
+﻿@model VisionsConstructionLLC.Database.Entities.Gallery.GalleryCategory
+
+@{
+	ViewBag.Title = Model.Name;
+	Layout = "~/Views/_Layout.cshtml";
+}
+
+<section class="row padding">
+	<div class="col-md-12">
+		<h1>@Model.Name</h1>
+		@if (Model.Items.Count > 0) {
+			foreach (var item in Model.Items) {
+				<div class="row">
+					@if (item.ItemImages.Count > 0) {
+						<div class="col-md-6 brightness">
+							<a href="~/Gallery/Item/@Model.Id/@item.Id">
+								<img class="img-thumbnail side-shadow" src="~/Gallery/Image/@item.ItemImages.ElementAt(0).Id/0/700" />
+							</a>
+						</div>
+					}
+					<div class="@((item.ItemImages == null || item.ItemImages.Count == 0) ? "col-md-12" : "col-md-6")">
+						<h4>@item.Title</h4>
+						<p>@item.ShowcaseDescription</p>
+						<a href="~/Gallery/Item/@Model.Id/@item.Id" class="vc-button light">View Details</a>
+					</div>
+					<div class="col-md-12">
+						<hr />
+					</div>
+				</div>
+			}
+		}
+		else { 
+			<p class="col-md-12">There are currently no items in this section.</p>
+		}
+	</div>
+</section>

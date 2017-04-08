@@ -1,0 +1,34 @@
+﻿@model VisionsConstructionLLC.Database.Entities.Gallery.GalleryCategory
+
+@{
+	ViewBag.Title = "Create Section";
+	Layout = "~/Views/_Layout.cshtml";
+}
+
+<section class="row padding">
+	<div class="col-md-12">
+		<h1>Create Section</h1>
+		@using (Html.BeginForm()) {
+			@Html.AntiForgeryToken()
+			<h4>Gallery Section</h4>
+			@Html.ValidationSummary(true)
+			if (TempData["Message"] != null) {
+				<p class="bg-success">@TempData["Message"]</p>
+			}
+			<div class="form-group">
+				@Html.LabelFor(model => model.Name, new { @class = "control-label col-md-2" })
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.Name, null, new { @class = "light", autocomplete = "off" })
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-offset-2 col-md-10">
+					<input type="submit" value="Submit" class="light" />
+				</div>
+			</div>
+		}
+		<div class="back">
+			@Html.ActionLink("Back", "GalleryAdministration", "GalleryAdministration")
+		</div>
+	</div>
+</section>

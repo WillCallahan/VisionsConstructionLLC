@@ -1,0 +1,452 @@
+2016-02-13 18:35:53,376 [1] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 18:35:53,388 [1] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 18:35:53,390 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-02-13 18:35:53,392 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-02-13 18:35:53,559 [10] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-02-13 18:35:53,575 [10] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-02-13 18:35:55,247 [10] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:35:57,334 [10] INFO VisionsConstructionLLC.WebUI.Controllers.ContactController - Entering /Contact
+2016-02-13 18:35:57,334 [10] DEBUG VisionsConstructionLLC.WebUI.Controllers.ContactController - Exiting /Contact
+2016-02-13 18:35:58,724 [10] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:36:01,036 [10] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 18:36:01,037 [10] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 18:36:01,771 [10] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:36:11,153 [11] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 18:36:11,155 [11] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Attempting to login user with a username of William Callahan
+2016-02-13 18:36:11,156 [11] DEBUG VisionsConstructionLLC.Database.Repository.UserRepository - Attempting to find an existing User by its username of William Callahan
+2016-02-13 18:36:11,203 [11] WARN VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Unable to login user with a username of William Callahan
+2016-02-13 18:36:11,204 [11] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 18:36:11,340 [11] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:37:52,532 [27] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 18:37:52,545 [27] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 18:37:52,546 [27] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-02-13 18:37:52,548 [27] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-02-13 18:37:52,757 [22] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 18:37:52,769 [22] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Attempting to login user with a username of William Callahan
+2016-02-13 18:37:52,771 [22] DEBUG VisionsConstructionLLC.Database.Repository.UserRepository - Attempting to find an existing User by its username of William Callahan
+2016-02-13 18:37:54,909 [22] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - User has been authenticated with a username of William Callahan
+2016-02-13 18:37:54,912 [22] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 18:37:54,938 [24] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration
+2016-02-13 18:37:54,940 [24] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find all GalleryCategory...
+2016-02-13 18:37:55,529 [24] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration
+2016-02-13 18:37:55,573 [20] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-02-13 18:37:55,574 [20] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-02-13 18:37:57,176 [20] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:37:57,176 [24] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:37:59,420 [23] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration
+2016-02-13 18:37:59,420 [23] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find all GalleryCategory...
+2016-02-13 18:37:59,635 [23] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration
+2016-02-13 18:37:59,637 [23] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:38:01,865 [25] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Logout
+2016-02-13 18:38:01,865 [25] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Logout
+2016-02-13 18:38:01,887 [22] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-02-13 18:38:01,887 [22] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-02-13 18:38:01,888 [22] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:38:04,195 [26] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 18:38:04,195 [26] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 18:38:04,553 [26] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:38:09,519 [24] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 18:38:09,519 [24] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Attempting to login user with a username of William Callahan
+2016-02-13 18:38:09,519 [24] DEBUG VisionsConstructionLLC.Database.Repository.UserRepository - Attempting to find an existing User by its username of William Callahan
+2016-02-13 18:38:09,554 [24] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 18:38:09,556 [24] ERROR VisionsConstructionLLC.WebUI.MvcApplication - Error: 
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at VisionsConstructionLLC.Database.Repository.UserRepository.find(String username, String password) in c:\Users\William Callahan\Documents\Visual Studio 2012\Projects\VisionsConstructionLLC\VisionsConstructionLLC.Database\Repository\UserRepository.cs:line 27
+   at VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController.Login(Login login) in c:\Users\William Callahan\Documents\Visual Studio 2012\Projects\VisionsConstructionLLC\VisionsConstructionLLC.WebUI\Controllers\Authentication\AuthenticationController.cs:line 47
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-02-13 18:43:48,329 [27] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 18:43:48,342 [27] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 18:43:48,344 [27] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-02-13 18:43:48,346 [27] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-02-13 18:43:48,483 [22] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 18:43:48,500 [22] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 18:43:49,840 [22] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:43:54,709 [25] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 18:43:54,711 [25] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Attempting to login user with a username of William Callahan
+2016-02-13 18:43:54,713 [25] DEBUG VisionsConstructionLLC.Database.Repository.UserRepository - Attempting to find an existing User by its username of William Callahan
+2016-02-13 18:43:54,728 [25] FATAL VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Failed Authentication Attemp!
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at VisionsConstructionLLC.Database.Repository.UserRepository.find(String username, String password) in c:\Users\William Callahan\Documents\Visual Studio 2012\Projects\VisionsConstructionLLC\VisionsConstructionLLC.Database\Repository\UserRepository.cs:line 27
+   at VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController.Login(Login login) in c:\Users\William Callahan\Documents\Visual Studio 2012\Projects\VisionsConstructionLLC\VisionsConstructionLLC.WebUI\Controllers\Authentication\AuthenticationController.cs:line 47
+2016-02-13 18:43:54,737 [25] WARN VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Unable to login user with a username of William Callahan
+2016-02-13 18:43:54,737 [25] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 18:43:54,741 [25] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:44:00,960 [5] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 18:44:00,960 [5] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Attempting to login user with a username of William Callahan
+2016-02-13 18:44:00,960 [5] DEBUG VisionsConstructionLLC.Database.Repository.UserRepository - Attempting to find an existing User by its username of William Callahan
+2016-02-13 18:44:00,963 [5] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - User has been authenticated with a username of William Callahan
+2016-02-13 18:44:00,964 [5] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 18:44:00,979 [20] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration
+2016-02-13 18:44:00,980 [20] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find all GalleryCategory...
+2016-02-13 18:44:01,195 [20] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration
+2016-02-13 18:44:01,618 [20] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:44:09,693 [22] INFO VisionsConstructionLLC.WebUI.Controllers.EmailAdministration.EmailAdministrationController - Entering /EmailAdministration
+2016-02-13 18:44:09,694 [22] DEBUG VisionsConstructionLLC.Database.Repository.EmailRepository - Attempting to find all Email...
+2016-02-13 18:44:09,710 [22] DEBUG VisionsConstructionLLC.WebUI.Controllers.EmailAdministration.EmailAdministrationController - Exiting /EmailAdministration
+2016-02-13 18:44:10,042 [22] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:44:12,283 [26] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-02-13 18:44:12,284 [26] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-02-13 18:44:12,588 [26] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:44:14,489 [16] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Logout
+2016-02-13 18:44:14,489 [16] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Logout
+2016-02-13 18:44:14,493 [17] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-02-13 18:44:14,493 [17] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-02-13 18:44:14,494 [17] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:59:34,359 [27] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 18:59:34,372 [27] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 18:59:34,374 [27] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-02-13 18:59:34,375 [27] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-02-13 18:59:34,513 [73] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 18:59:34,529 [73] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 18:59:35,866 [73] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:59:47,189 [80] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 18:59:47,192 [80] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Attempting to login user with a username of William Callahan
+2016-02-13 18:59:47,193 [80] DEBUG VisionsConstructionLLC.Database.Repository.UserRepository - Attempting to find an existing User by its username of William Callahan
+2016-02-13 18:59:47,241 [80] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - User has been authenticated with a username of William Callahan
+2016-02-13 18:59:47,242 [80] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 18:59:47,256 [79] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration
+2016-02-13 18:59:47,257 [79] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find all GalleryCategory...
+2016-02-13 18:59:47,502 [79] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration
+2016-02-13 18:59:47,919 [79] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:59:49,598 [78] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration/ModifySelection/1
+2016-02-13 18:59:49,603 [78] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find an existing GalleryCategory by its Id of 1
+2016-02-13 18:59:49,810 [78] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration/ModifySelection/1
+2016-02-13 18:59:49,838 [78] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:59:51,423 [80] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration/ModifyItemAction/1/1
+2016-02-13 18:59:51,427 [80] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration/ModifyItemAction/1/1
+2016-02-13 18:59:51,432 [73] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration/ModifyItem/1
+2016-02-13 18:59:51,434 [73] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemRepository - Attempting to find an Item by its Id of 1
+2016-02-13 18:59:51,667 [73] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration/ModifyItem/1
+2016-02-13 18:59:51,694 [73] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:59:51,980 [74] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/4/150
+2016-02-13 18:59:51,980 [78] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/2/150
+2016-02-13 18:59:51,980 [77] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/1/150
+2016-02-13 18:59:51,981 [72] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/3/150
+2016-02-13 18:59:51,983 [74] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 4
+2016-02-13 18:59:51,983 [77] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 1
+2016-02-13 18:59:51,983 [78] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 2
+2016-02-13 18:59:51,983 [72] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 3
+2016-02-13 18:59:52,193 [78] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 18:59:52,193 [78] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/2/150
+2016-02-13 18:59:52,226 [72] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 18:59:52,226 [72] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/3/150
+2016-02-13 18:59:52,278 [74] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 18:59:52,278 [74] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/4/150
+2016-02-13 18:59:52,349 [77] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 266W
+2016-02-13 18:59:52,424 [77] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/1/150
+2016-02-13 18:59:54,604 [72] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration/AddImage
+2016-02-13 18:59:54,605 [72] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 4
+2016-02-13 18:59:54,694 [72] INFO VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to udpate an Item Image Active Status to ACTIVE
+2016-02-13 18:59:54,995 [72] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemRepository - Attempting to find an Item by its Id of 1
+2016-02-13 18:59:55,207 [72] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration/AddImage
+2016-02-13 18:59:55,210 [72] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 18:59:55,475 [74] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/1/150
+2016-02-13 18:59:55,475 [74] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 1
+2016-02-13 18:59:55,476 [77] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/3/150
+2016-02-13 18:59:55,477 [77] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 3
+2016-02-13 18:59:55,476 [73] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/2/150
+2016-02-13 18:59:55,477 [73] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 2
+2016-02-13 18:59:55,477 [78] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/4/150
+2016-02-13 18:59:55,477 [78] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 4
+2016-02-13 18:59:55,603 [73] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 18:59:55,603 [73] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/2/150
+2016-02-13 18:59:55,646 [77] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 18:59:55,646 [77] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/3/150
+2016-02-13 18:59:55,771 [74] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 266W
+2016-02-13 18:59:55,843 [74] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/1/150
+2016-02-13 18:59:55,869 [78] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 266W
+2016-02-13 18:59:55,941 [78] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/4/150
+2016-02-13 19:00:03,625 [76] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration/AddImage
+2016-02-13 19:00:03,625 [76] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 3
+2016-02-13 19:00:03,665 [76] INFO VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to udpate an Item Image Active Status to ACTIVE
+2016-02-13 19:00:03,705 [76] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemRepository - Attempting to find an Item by its Id of 1
+2016-02-13 19:00:03,905 [76] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration/AddImage
+2016-02-13 19:00:03,907 [76] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 19:00:04,188 [73] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/1/150
+2016-02-13 19:00:04,188 [73] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 1
+2016-02-13 19:00:04,191 [66] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/3/150
+2016-02-13 19:00:04,191 [66] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 3
+2016-02-13 19:00:04,191 [68] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/4/150
+2016-02-13 19:00:04,191 [68] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 4
+2016-02-13 19:00:04,191 [67] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/2/150
+2016-02-13 19:00:04,191 [67] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 2
+2016-02-13 19:00:04,340 [67] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 19:00:04,340 [67] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/2/150
+2016-02-13 19:00:04,370 [66] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to resize image!
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Image.FromStream(Stream stream, Boolean useEmbeddedColorManagement, Boolean validateImageData)
+   at VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController.Image(Int32 id, Int32 height, Int32 width) in c:\Users\William Callahan\Documents\Visual Studio 2012\Projects\VisionsConstructionLLC\VisionsConstructionLLC.WebUI\Controllers\Gallery\GalleryController.cs:line 79
+2016-02-13 19:00:04,405 [66] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/3/150
+2016-02-13 19:00:04,475 [73] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 266W
+2016-02-13 19:00:04,546 [73] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/1/150
+2016-02-13 19:00:04,579 [68] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 266W
+2016-02-13 19:00:04,652 [68] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/4/150
+2016-02-13 19:00:06,296 [74] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration/DeleteImage
+2016-02-13 19:00:06,297 [74] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 3
+2016-02-13 19:00:06,336 [74] INFO VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to udpate an Item Image Active Status to INACTIVE
+2016-02-13 19:00:06,377 [74] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemRepository - Attempting to find an Item by its Id of 1
+2016-02-13 19:00:06,620 [74] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration/DeleteImage
+2016-02-13 19:00:06,622 [74] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 19:00:06,887 [76] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/1/150
+2016-02-13 19:00:06,887 [76] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 1
+2016-02-13 19:00:06,888 [80] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/2/150
+2016-02-13 19:00:06,888 [80] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 2
+2016-02-13 19:00:06,889 [78] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/3/150
+2016-02-13 19:00:06,889 [78] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 3
+2016-02-13 19:00:06,890 [67] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/4/150
+2016-02-13 19:00:06,890 [67] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 4
+2016-02-13 19:00:07,029 [80] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 19:00:07,029 [80] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/2/150
+2016-02-13 19:00:07,042 [78] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 19:00:07,042 [78] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/3/150
+2016-02-13 19:00:07,149 [76] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 266W
+2016-02-13 19:00:07,241 [76] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/1/150
+2016-02-13 19:00:07,286 [67] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 266W
+2016-02-13 19:00:07,357 [67] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/4/150
+2016-02-13 19:02:11,531 [1] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 19:02:11,546 [1] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 19:02:11,547 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-02-13 19:02:11,549 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-02-13 19:02:11,681 [70] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-02-13 19:02:11,698 [70] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-02-13 19:02:12,984 [70] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 19:37:37,883 [22] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-02-13 19:37:37,884 [22] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-02-13 19:37:37,886 [22] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 19:37:39,767 [22] INFO VisionsConstructionLLC.WebUI.Controllers.ContactController - Entering /Contact
+2016-02-13 19:37:39,768 [22] DEBUG VisionsConstructionLLC.WebUI.Controllers.ContactController - Exiting /Contact
+2016-02-13 19:37:41,220 [22] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 19:37:55,029 [22] INFO VisionsConstructionLLC.WebUI.Controllers.ContactController - Entering /Contact/SendMessage
+2016-02-13 19:37:55,033 [22] INFO VisionsConstructionLLC.WebUI.Controllers.ContactController - Attempting to send an email...
+2016-02-13 19:37:55,173 [22] INFO VisionsConstructionLLC.Database.Repository.EmailRepository - Attempting to create a new Email...
+2016-02-13 19:37:55,262 [22] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailSender - Sending an email...
+2016-02-13 19:37:55,263 [22] DEBUG VisionsConstructionLLC.WebUI.Service.Exchange.EmailSender - Email Information:
+:Recipients: System.Collections.Generic.List`1[System.String]
+Subject: Request - example@example.com
+Body: Email:
+	Id: 5
+	Name: Test
+	Email Address: example@example.com
+	Phone: 12345
+	Message: This is a test
+2016-02-13 19:37:56,370 [22] ERROR VisionsConstructionLLC.WebUI.Controllers.ContactController - An error occured while sending an email!
+System.Net.Mail.SmtpException: The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.5.1 Authentication Required. Learn more at
+   at System.Net.Mail.MailCommand.CheckResponse(SmtpStatusCode statusCode, String response)
+   at System.Net.Mail.MailCommand.Send(SmtpConnection conn, Byte[] command, MailAddress from, Boolean allowUnicode)
+   at System.Net.Mail.SmtpTransport.SendMail(MailAddress sender, MailAddressCollection recipients, String deliveryNotify, Boolean allowUnicode, SmtpFailedRecipientException& exception)
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at VisionsConstructionLLC.WebUI.Service.Exchange.EmailSender.sendEmail(List`1 recipients, String subject, String body) in c:\Users\William Callahan\Documents\Visual Studio 2012\Projects\VisionsConstructionLLC\VisionsConstructionLLC.WebUI\Service\Exchange\EmailSender.cs:line 38
+   at VisionsConstructionLLC.WebUI.Controllers.ContactController.Contact(Email email) in c:\Users\William Callahan\Documents\Visual Studio 2012\Projects\VisionsConstructionLLC\VisionsConstructionLLC.WebUI\Controllers\ContactController.cs:line 57
+2016-02-13 19:37:56,624 [22] DEBUG VisionsConstructionLLC.WebUI.Controllers.ContactController - Exiting /Contact/SendMessage
+2016-02-13 19:37:57,034 [22] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 19:40:44,583 [20] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 19:40:44,597 [20] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 19:40:44,598 [20] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-02-13 19:40:44,600 [20] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-02-13 19:40:44,720 [83] ERROR VisionsConstructionLLC.WebUI.MvcApplication - Error: 
+System.Web.HttpException (0x80004005): No matching action was found on controller 'VisionsConstructionLLC.WebUI.Controllers.ContactController'. This can happen when a controller uses RouteAttribute for routing, but no action on that controller matches the request.
+   at System.Web.Mvc.Controller.HandleUnknownAction(String actionName)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-02-13 23:25:23,609 [1] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 23:25:23,620 [1] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-13 23:25:23,622 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-02-13 23:25:23,624 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-02-13 23:25:23,755 [7] ERROR VisionsConstructionLLC.WebUI.MvcApplication - Error: 
+System.Web.HttpException (0x80004005): Path '/Views/GalleryAdministration/ModifyItem.cshtml' was not found.
+   at System.Web.HttpNotFoundHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2016-02-13 23:25:27,086 [7] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-02-13 23:25:27,102 [7] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-02-13 23:25:28,903 [7] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 23:25:33,799 [9] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 23:25:33,799 [9] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 23:25:34,815 [9] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 23:25:41,048 [12] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 23:25:41,049 [12] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Attempting to login user with a username of William Callahan
+2016-02-13 23:25:41,051 [12] DEBUG VisionsConstructionLLC.Database.Repository.UserRepository - Attempting to find an existing User by its username of William Callahan
+2016-02-13 23:25:41,176 [12] FATAL VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Failed Authentication Attemp!
+System.InvalidOperationException: Sequence contains no elements
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at VisionsConstructionLLC.Database.Repository.UserRepository.find(String username, String password) in c:\Users\William Callahan\Documents\Visual Studio 2012\Projects\VisionsConstructionLLC\VisionsConstructionLLC.Database\Repository\UserRepository.cs:line 27
+   at VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController.Login(Login login) in c:\Users\William Callahan\Documents\Visual Studio 2012\Projects\VisionsConstructionLLC\VisionsConstructionLLC.WebUI\Controllers\Authentication\AuthenticationController.cs:line 47
+2016-02-13 23:25:41,198 [12] WARN VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Unable to login user with a username of William Callahan
+2016-02-13 23:25:41,199 [12] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 23:25:41,335 [12] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 23:25:47,197 [7] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Entering /Authentication/Login
+2016-02-13 23:25:47,197 [7] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Attempting to login user with a username of William Callahan
+2016-02-13 23:25:47,197 [7] DEBUG VisionsConstructionLLC.Database.Repository.UserRepository - Attempting to find an existing User by its username of William Callahan
+2016-02-13 23:25:47,200 [7] INFO VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - User has been authenticated with a username of William Callahan
+2016-02-13 23:25:47,201 [7] DEBUG VisionsConstructionLLC.WebUI.Controllers.Authentication.AuthenticationController - Exiting /Authentication/Login
+2016-02-13 23:25:47,215 [9] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration
+2016-02-13 23:25:47,216 [9] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find all GalleryCategory...
+2016-02-13 23:25:47,859 [9] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration
+2016-02-13 23:25:48,756 [9] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 23:25:51,876 [7] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration/ModifySelection/5
+2016-02-13 23:25:51,878 [7] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find an existing GalleryCategory by its Id of 5
+2016-02-13 23:25:51,938 [7] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration/ModifySelection/5
+2016-02-13 23:25:52,136 [7] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 23:25:53,699 [8] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration/ModifyItemAction/9/5
+2016-02-13 23:25:53,701 [8] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration/ModifyItemAction/9/5
+2016-02-13 23:25:53,707 [9] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration/ModifyItem/9
+2016-02-13 23:25:53,709 [9] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemRepository - Attempting to find an Item by its Id of 9
+2016-02-13 23:25:53,793 [9] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration/ModifyItem/9
+2016-02-13 23:25:53,995 [9] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 23:25:54,665 [8] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/7/150
+2016-02-13 23:25:54,666 [12] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/10/150
+2016-02-13 23:25:54,665 [11] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/8/150
+2016-02-13 23:25:54,666 [10] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/9/150
+2016-02-13 23:25:54,668 [8] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 7
+2016-02-13 23:25:54,668 [12] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 10
+2016-02-13 23:25:54,668 [13] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/11/150
+2016-02-13 23:25:54,668 [13] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 11
+2016-02-13 23:25:54,668 [10] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 9
+2016-02-13 23:25:54,668 [11] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 8
+2016-02-13 23:25:54,737 [12] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 23:25:54,738 [12] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/10/150
+2016-02-13 23:25:54,745 [11] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 23:25:54,746 [11] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/8/150
+2016-02-13 23:25:54,749 [10] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 23:25:54,749 [10] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/9/150
+2016-02-13 23:25:54,751 [13] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 23:25:54,752 [13] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/11/150
+2016-02-13 23:25:54,779 [8] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 200W
+2016-02-13 23:25:54,801 [8] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/7/150
+2016-02-13 23:26:01,158 [11] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Entering /GalleryAdministration/Image
+2016-02-13 23:26:01,159 [11] INFO VisionsConstructionLLC.Database.Repository.Gallery.ItemRepository - Attempting to update an Item...
+2016-02-13 23:26:01,201 [11] INFO VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to create a new Item Image...
+2016-02-13 23:26:01,229 [11] INFO VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to create a new Item Image...
+2016-02-13 23:26:01,273 [11] INFO VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to create a new Item Image...
+2016-02-13 23:26:01,278 [11] INFO VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to create a new Item Image...
+2016-02-13 23:26:01,298 [11] INFO VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to create a new Item Image...
+2016-02-13 23:26:01,304 [11] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemRepository - Attempting to find an Item by its Id of 9
+2016-02-13 23:26:01,366 [11] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryAdministrationController - Exiting /GalleryAdministration/Image
+2016-02-13 23:26:01,370 [11] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-13 23:26:02,029 [7] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/7/150
+2016-02-13 23:26:02,029 [7] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 7
+2016-02-13 23:26:02,033 [8] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/8/150
+2016-02-13 23:26:02,033 [8] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 8
+2016-02-13 23:26:02,034 [9] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/9/150
+2016-02-13 23:26:02,034 [9] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 9
+2016-02-13 23:26:02,035 [10] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/10/150
+2016-02-13 23:26:02,035 [10] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 10
+2016-02-13 23:26:02,099 [12] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/44/150
+2016-02-13 23:26:02,100 [12] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 44
+2016-02-13 23:26:02,101 [13] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/11/150
+2016-02-13 23:26:02,101 [13] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 11
+2016-02-13 23:26:02,101 [14] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/48/150
+2016-02-13 23:26:02,102 [14] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 48
+2016-02-13 23:26:02,102 [6] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/45/150
+2016-02-13 23:26:02,102 [6] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 45
+2016-02-13 23:26:02,102 [11] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/46/150
+2016-02-13 23:26:02,102 [11] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 46
+2016-02-13 23:26:02,113 [12] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 243W
+2016-02-13 23:26:02,116 [14] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 200W
+2016-02-13 23:26:02,125 [14] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/48/150
+2016-02-13 23:26:02,126 [6] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 249W
+2016-02-13 23:26:02,126 [12] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/44/150
+2016-02-13 23:26:02,128 [14] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/47/150
+2016-02-13 23:26:02,128 [14] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 47
+2016-02-13 23:26:02,136 [6] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/45/150
+2016-02-13 23:26:02,143 [14] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 240W
+2016-02-13 23:26:02,148 [9] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 23:26:02,148 [9] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/9/150
+2016-02-13 23:26:02,153 [14] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/47/150
+2016-02-13 23:26:02,155 [10] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 23:26:02,155 [10] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/10/150
+2016-02-13 23:26:02,156 [8] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 23:26:02,156 [8] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/8/150
+2016-02-13 23:26:02,159 [11] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 244W
+2016-02-13 23:26:02,165 [13] ERROR VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Unable to get Item_Image; Item_Image is not active!
+2016-02-13 23:26:02,165 [13] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/11/150
+2016-02-13 23:26:02,170 [7] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 150H X 200W
+2016-02-13 23:26:02,170 [11] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/46/150
+2016-02-13 23:26:02,191 [7] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/7/150
+2016-02-14 00:49:00,110 [1] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-14 00:49:00,146 [1] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-14 00:49:00,148 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-02-14 00:49:00,150 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-02-14 00:49:00,301 [10] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-02-14 00:49:00,317 [10] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-02-14 00:49:01,832 [10] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-02-14 00:49:53,776 [20] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-14 00:49:53,790 [20] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-02-14 00:49:53,791 [20] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-02-14 00:49:53,793 [20] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-02-14 00:49:53,924 [15] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-02-14 00:49:53,940 [15] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-02-14 00:49:55,216 [15] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-08-14 22:20:39,063 [1] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-08-14 22:20:39,075 [1] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-08-14 22:20:39,077 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-08-14 22:20:39,079 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-08-14 22:20:39,264 [8] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-08-14 22:20:39,281 [8] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-08-14 22:20:41,149 [8] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-08-14 22:30:17,530 [46] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-08-14 22:30:17,543 [46] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2016-08-14 22:30:17,545 [46] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2016-08-14 22:30:17,547 [46] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2016-08-14 22:30:17,691 [43] INFO VisionsConstructionLLC.WebUI.Controllers.AboutController - Entering /About
+2016-08-14 22:30:17,691 [27] INFO VisionsConstructionLLC.WebUI.Controllers.AboutController - Entering /About
+2016-08-14 22:30:17,709 [27] DEBUG VisionsConstructionLLC.WebUI.Controllers.AboutController - Exiting /About
+2016-08-14 22:30:17,709 [43] DEBUG VisionsConstructionLLC.WebUI.Controllers.AboutController - Exiting /About
+2016-08-14 22:30:19,068 [27] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-08-14 22:30:19,068 [43] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-08-14 22:30:26,331 [45] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Category/1
+2016-08-14 22:30:26,334 [45] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find an existing GalleryCategory by its Id of 1
+2016-08-14 22:30:26,622 [45] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Category/1
+2016-08-14 22:30:26,993 [45] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2016-08-14 22:30:27,652 [40] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/1/0/700
+2016-08-14 22:30:27,652 [41] INFO VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Entering /Gallery/Image/33/0/700
+2016-08-14 22:30:27,656 [40] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 1
+2016-08-14 22:30:27,656 [41] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.ItemImageRepository - Attempting to find an exsiting Item Image by its Id of 33
+2016-08-14 22:30:27,846 [41] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 525H X 700W
+2016-08-14 22:30:27,927 [40] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Attempting to resize image to 393H X 700W
+2016-08-14 22:30:27,942 [41] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/33/0/700
+2016-08-14 22:30:28,044 [40] DEBUG VisionsConstructionLLC.WebUI.Controllers.Gallery.GalleryController - Exiting /Gallery/Image/1/0/700
+2016-08-14 22:30:44,690 [17] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2016-08-14 22:30:44,690 [17] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2016-08-14 22:30:45,044 [17] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2017-01-01 01:30:02,449 [1] INFO VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to set email settings: callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2017-01-01 01:30:02,461 [1] INFO VisionsConstructionLLC.WebUI.Service.Exchange.EmailHelper - Attempting to extract all email addresses from callahan043@connect.wcsu.edu,willcallahan94@att.net,visionsconstructionct@gmail.com
+2017-01-01 01:30:02,462 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Attempting to setup Ninject Injections...
+2017-01-01 01:30:02,464 [1] DEBUG VisionsConstructionLLC.WebUI.Infrastructure.NinjectControllerFactory - Ninject Injection Setup Complete!
+2017-01-01 01:30:02,668 [7] INFO VisionsConstructionLLC.WebUI.Controllers.HomeController - Entering /
+2017-01-01 01:30:02,684 [7] DEBUG VisionsConstructionLLC.WebUI.Controllers.HomeController - Exiting /
+2017-01-01 01:30:04,685 [7] DEBUG VisionsConstructionLLC.Database.Repository.Gallery.GalleryCategoryRepository - Attempting to find a GalleryCategory by an Active Status of ACTIVE
+2017-01-01 01:31:48,683 [7] ERROR VisionsConstructionLLC.WebUI.MvcApplication - Error: 
+System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
