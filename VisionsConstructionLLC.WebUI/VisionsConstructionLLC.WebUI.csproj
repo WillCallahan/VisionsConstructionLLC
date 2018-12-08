@@ -931,6 +931,10 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\VisionsConstructionLLC.Common\VisionsConstructionLLC.Common\VisionsConstructionLLC.Common.csproj">
+      <Project>{a2bab04b-25fb-495c-b50d-9fcdd48c483c}</Project>
+      <Name>VisionsConstructionLLC.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\VisionsConstructionLLC.Database\VisionsConstructionLLC.Database.csproj">
       <Project>{7d0106ea-560c-4e9b-ad5a-e7f503769441}</Project>
       <Name>VisionsConstructionLLC.Database</Name>

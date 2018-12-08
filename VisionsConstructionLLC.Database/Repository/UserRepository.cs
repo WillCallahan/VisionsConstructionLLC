@@ -2,29 +2,31 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using VisionsConstructionLLC.Common.Crypto;
 using VisionsConstructionLLC.Database.Concrete;
 using VisionsConstructionLLC.Database.Entities;
 using VisionsConstructionLLC.Database.Models.Enums;
 
 namespace VisionsConstructionLLC.Database.Repository {
 	public class UserRepository : IUserRepository {
-		private ILog log;
-		private EntityManagerDbContext context = new EntityManagerDbContext();
+		private readonly ILog _log;
+		private readonly EntityManagerDbContext _context = new EntityManagerDbContext();
+		private readonly IHasher _hasher;
 
-		public UserRepository() {
-			log = LogManager.GetLogger(this.GetType());
+		public UserRepository(IHasher hasher) {
+			_log = LogManager.GetLogger(this.GetType());
+			_hasher = hasher;
 		}
 
 		public User find(int index) {
-			log.Debug("Attempting to find an existing User by its Id of " + index);
-			return context.User.Where(u => u.Id == index).Single();
+			_log.Debug("Attempting to find an existing User by its Id of " + index);
+			return _context.User.Single(u => u.Id == index);
 		}
 
 		public User find(String username, String password) {
-			log.Debug("Attempting to find an existing User by its username of " + username);
-			return context.User.Where(u => u.Username.Equals(username) && u.Password.Equals(password)).Single();
+			_log.Debug("Attempting to find an existing User by its username of " + username);
+			var hashedPassword = _hasher.Hash(password);
+			return _context.User.Single(u => u.Username.Equals(username) && u.Password.Equals(hashedPassword));
 		}
 
 		public List<User> findAll(ActiveStatus activeStatus) {

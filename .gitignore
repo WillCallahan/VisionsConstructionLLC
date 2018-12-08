@@ -46,3 +46,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 .localhistory/
+*.opensdf
+.vs/
+packages/
+*.cache
+obj
+bin
+*.suo
+*.user

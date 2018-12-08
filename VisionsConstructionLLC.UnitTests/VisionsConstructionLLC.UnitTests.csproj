@@ -84,6 +84,12 @@
   <ItemGroup>
     <Folder Include="App_Start\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VisionsConstructionLLC.Database\VisionsConstructionLLC.Database.csproj">
+      <Project>{7d0106ea-560c-4e9b-ad5a-e7f503769441}</Project>
+      <Name>VisionsConstructionLLC.Database</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
